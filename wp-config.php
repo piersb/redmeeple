@@ -18,24 +18,28 @@
  * @package WordPress
  */
 
+
 // ** MySQL settings ** //
 /** The name of the database for WordPress */
-define( 'DB_NAME', 'redmeeple' );
+define( 'DB_NAME', 'phb_redmeeple' );
 
 /** MySQL database username */
-define( 'DB_USER', 'redmeeple_user' );
+define( 'DB_USER', 'u_phb_redmee' );
 
 /** MySQL database password */
-define( 'DB_PASSWORD', 'tPM-4a5-ymm-8GX' );
+define( 'DB_PASSWORD', 'fksd*3js372Bgs3sqs' );
 
 /** MySQL hostname */
-define( 'DB_HOST', 'localhost' );
+define( 'DB_HOST', '212.13.212' );
 
 /** Database Charset to use in creating database tables. */
 define( 'DB_CHARSET', 'utf8' );
 
 /** The Database Collate type. Don't change this if in doubt. */
 define( 'DB_COLLATE', '' );
+
+/** to allow direct update w/o FTP */
+define('FS_METHOD', 'direct');
 
 /**
  * Authentication Unique Keys and Salts.
